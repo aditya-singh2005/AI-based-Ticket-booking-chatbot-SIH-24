@@ -1,0 +1,95 @@
+{
+  "museums": [
+    {
+      "state": "Delhi",
+      "name": "National Museum",
+      "ticket_price": {
+        "indians": "₹20",
+        "foreigners": "₹650"
+      },
+      "description": "The National Museum in New Delhi is one of the largest and most comprehensive museums in India. It houses an extensive collection spanning over 5,000 years of cultural heritage, including ancient sculptures, manuscripts, and paintings.",
+      "ltd": 28.611029,
+      "lng": 77.219184,
+      "opening_hours": "10:00 AM",
+      "imageURL": "https://example.com/national_museum.jpg"
+    },
+    {
+      "state": "Delhi",
+      "name": "National Rail Museum",
+      "ticket_price": {
+        "indians": "₹50",
+        "foreigners": "₹500"
+      },
+      "description": "The National Rail Museum showcases the heritage of Indian Railways with exhibits of steam locomotives and historical train artifacts.",
+      "ltd": 28.585502,
+      "lng": 77.181925,
+      "opening_hours": "10:00 AM",
+      "imageURL": "https://example.com/national_rail_museum.jpg"
+    },
+    {
+      "state": "Delhi",
+      "name": "Shankar's International Dolls Museum",
+      "ticket_price": {
+        "indians": "₹20 for children, ₹40 for adults",
+        "foreigners": "₹20 for children, ₹40 for adults"
+      },
+      "description": "This museum houses over 6,500 dolls from 85 countries, showcasing global culture through miniature figures.",
+      "ltd": 28.630585,
+      "lng": 77.241073,
+      "opening_hours": "10:00 AM",
+      "imageURL": "https://example.com/shankars_dolls_museum.jpg"
+    },
+    {
+      "state": "Delhi",
+      "name": "National Science Centre",
+      "ticket_price": {
+        "indians": "₹50 for adults, ₹20 for students",
+        "foreigners": "₹50 for adults, ₹20 for students"
+      },
+      "description": "A leading science museum offering interactive exhibits on various scientific themes and principles.",
+      "ltd": 28.613839,
+      "lng": 77.243521,
+      "opening_hours": "10:00 AM",
+      "imageURL": "https://example.com/national_science_centre.jpg"
+    },
+    {
+      "state": "Delhi",
+      "name": "Indira Gandhi Memorial Museum",
+      "ticket_price": {
+        "indians": "₹25",
+        "foreigners": "₹25"
+      },
+      "description": "This museum is dedicated to the life of Indira Gandhi and preserves her personal belongings and historical memorabilia.",
+      "ltd": 28.597842,
+      "lng": 77.213616,
+      "opening_hours": "09:30 AM",
+      "imageURL": "https://example.com/indira_gandhi_memorial_museum.jpg"
+    },
+    {
+      "state": "Delhi",
+      "name": "Gandhi Smriti",
+      "ticket_price": {
+        "indians": "Free",
+        "foreigners": "Free"
+      },
+      "description": "A museum dedicated to Mahatma Gandhi, located at the site where he was assassinated. It offers exhibits on his life and philosophy.",
+      "ltd": 28.600333,
+      "lng": 77.206992,
+      "opening_hours": "10:00 AM",
+      "imageURL": "https://example.com/gandhi_smriti.jpg"
+    },
+    {
+      "state": "Delhi",
+      "name": "National Philatelic Museum",
+      "ticket_price": {
+        "indians": "Free",
+        "foreigners": "Free"
+      },
+      "description": "This museum houses a vast collection of stamps from India and around the world, showcasing postal history.",
+      "ltd": 28.628346,
+      "lng": 77.216591,
+      "opening_hours": "10:00 AM",
+      "imageURL": "https://example.com/national_philatelic_museum.jpg"
+    }
+  ]
+}
