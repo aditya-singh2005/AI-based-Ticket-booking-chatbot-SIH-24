@@ -7,15 +7,21 @@
         "alt": "National Museum",
         "description": "The National Museum is one of the largest museums in India, featuring collections of artifacts dating back to the Indus Valley Civilization.",
         "price_weekday": "₹20",
-        "price_weekend": "₹25"
+        "price_weekend": "₹25",
+        "price_foreign": "₹300",
+        "timings": "10:00 AM - 5:00 PM",
+        "special_events": "Indus Valley Civilization exhibition every September."
       },
       {
         "name": "National Rail Museum",
-        "src": "../delhi/rail-museum.jpg",
+        "src": "../icons/bg.jpg",
         "alt": "National Rail Museum",
         "description": "The National Rail Museum showcases the rich heritage of Indian Railways with a display of locomotives and carriages.",
         "price_weekday": "₹50",
-        "price_weekend": "₹60"
+        "price_weekend": "₹60",
+        "price_foreign": "₹400",
+        "timings": "10:00 AM - 5:00 PM",
+        "special_events": "Steam engine rides available on weekends."
       },
       {
         "name": "Nehru Planetarium",
@@ -23,7 +29,10 @@
         "alt": "Nehru Planetarium",
         "description": "Nehru Planetarium is a center for astronomical education and is popular among students and space enthusiasts.",
         "price_weekday": "₹30",
-        "price_weekend": "₹35"
+        "price_weekend": "₹35",
+        "price_foreign": "₹200",
+        "timings": "11:00 AM - 6:00 PM",
+        "special_events": "Special night sky observation sessions every first Saturday of the month."
       },
       {
         "name": "Gandhi Smriti",
@@ -31,7 +40,10 @@
         "alt": "Gandhi Smriti",
         "description": "Gandhi Smriti is a museum dedicated to Mahatma Gandhi, showcasing his life and teachings.",
         "price_weekday": "₹10",
-        "price_weekend": "₹15"
+        "price_weekend": "₹15",
+        "price_foreign": "₹100",
+        "timings": "10:00 AM - 5:00 PM",
+        "special_events": "Commemorative events on Gandhi Jayanti (October 2)."
       },
       {
         "name": "Indira Gandhi Memorial Museum",
@@ -39,7 +51,10 @@
         "alt": "Indira Gandhi Memorial Museum",
         "description": "This museum is housed in the former residence of Indira Gandhi and features exhibits on her life and political career.",
         "price_weekday": "₹25",
-        "price_weekend": "₹30"
+        "price_weekend": "₹30",
+        "price_foreign": "₹250",
+        "timings": "9:30 AM - 5:00 PM",
+        "special_events": "Exhibition on the Emergency period every June."
       },
       {
         "name": "Crafts Museum",
@@ -47,7 +62,10 @@
         "alt": "Crafts Museum",
         "description": "The Crafts Museum in Delhi showcases India's rich tradition of handicrafts, textiles, and folk art.",
         "price_weekday": "₹40",
-        "price_weekend": "₹50"
+        "price_weekend": "₹50",
+        "price_foreign": "₹500",
+        "timings": "10:00 AM - 6:00 PM",
+        "special_events": "Handicraft fairs held during Diwali."
       }
     ]
   },
@@ -59,7 +77,10 @@
         "alt": "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
         "description": "CSMVS is a premier art and history museum in Mumbai, showcasing a wide range of artifacts, paintings, and sculptures.",
         "price_weekday": "₹100",
-        "price_weekend": "₹120"
+        "price_weekend": "₹120",
+        "price_foreign": "₹500",
+        "timings": "10:00 AM - 6:00 PM",
+        "special_events": "Temporary exhibitions every quarter."
       },
       {
         "name": "Prince of Wales Museum",
@@ -67,7 +88,10 @@
         "alt": "Prince of Wales Museum",
         "description": "Also known as the Chhatrapati Shivaji Maharaj Museum, this museum is renowned for its collection of ancient and medieval artifacts.",
         "price_weekday": "₹150",
-        "price_weekend": "₹180"
+        "price_weekend": "₹180",
+        "price_foreign": "₹600",
+        "timings": "10:30 AM - 5:30 PM",
+        "special_events": "Special guided tours every Sunday."
       },
       {
         "name": "Dr. Bhau Daji Lad Museum",
@@ -75,7 +99,10 @@
         "alt": "Dr. Bhau Daji Lad Museum",
         "description": "Dr. Bhau Daji Lad Museum in Mumbai is known for its collection of decorative arts and cultural artifacts.",
         "price_weekday": "₹80",
-        "price_weekend": "₹90"
+        "price_weekend": "₹90",
+        "price_foreign": "₹400",
+        "timings": "10:00 AM - 5:00 PM",
+        "special_events": "Exhibitions on Mumbai's heritage held in December."
       },
       {
         "name": "National Gallery of Modern Art",
@@ -83,7 +110,10 @@
         "alt": "National Gallery of Modern Art",
         "description": "NGMA in Mumbai showcases contemporary and modern art from Indian and international artists.",
         "price_weekday": "₹120",
-        "price_weekend": "₹140"
+        "price_weekend": "₹140",
+        "price_foreign": "₹300",
+        "timings": "11:00 AM - 6:00 PM",
+        "special_events": "Art workshops during the summer."
       },
       {
         "name": "Raja Dinkar Kelkar Museum",
@@ -91,7 +121,10 @@
         "alt": "Raja Dinkar Kelkar Museum",
         "description": "This museum in Pune is dedicated to the collection of Raja Dinkar Kelkar, featuring everyday artifacts, sculptures, and decorative arts.",
         "price_weekday": "₹60",
-        "price_weekend": "₹70"
+        "price_weekend": "₹70",
+        "price_foreign": "₹200",
+        "timings": "10:00 AM - 5:30 PM",
+        "special_events": "Annual heritage walks in January."
       },
       {
         "name": "Tribal Museum",
@@ -99,7 +132,10 @@
         "alt": "Tribal Museum",
         "description": "The Tribal Museum in Pune displays the cultural heritage and artifacts of Maharashtra's tribal communities.",
         "price_weekday": "₹70",
-        "price_weekend": "₹80"
+        "price_weekend": "₹80",
+        "price_foreign": "₹150",
+        "timings": "9:30 AM - 5:00 PM",
+        "special_events": "Cultural performances during festive seasons."
       }
     ]
   },
@@ -111,7 +147,10 @@
         "alt": "Albert Hall Museum",
         "description": "Albert Hall Museum in Jaipur is the oldest museum in Rajasthan, showcasing a rich collection of artifacts, paintings, and sculptures.",
         "price_weekday": "₹50",
-        "price_weekend": "₹60"
+        "price_weekend": "₹60",
+        "price_foreign": "₹300",
+        "timings": "9:00 AM - 5:00 PM",
+        "special_events": "Night visits available on select dates."
       },
       {
         "name": "City Palace Museum",
@@ -119,7 +158,10 @@
         "alt": "City Palace Museum",
         "description": "The museum inside Jaipur's City Palace houses a collection of royal artifacts, including costumes, textiles, and weapons.",
         "price_weekday": "₹80",
-        "price_weekend": "₹100"
+        "price_weekend": "₹100",
+        "price_foreign": "₹500",
+        "timings": "9:30 AM - 5:00 PM",
+        "special_events": "Special exhibits on Rajasthani royalty every December."
       },
       {
         "name": "Bagore ki Haveli Museum",
@@ -127,31 +169,43 @@
         "alt": "Bagore ki Haveli Museum",
         "description": "Bagore ki Haveli in Udaipur is a 18th-century haveli turned museum that displays costumes and modern art.",
         "price_weekday": "₹60",
-        "price_weekend": "₹75"
+        "price_weekend": "₹75",
+        "price_foreign": "₹200",
+        "timings": "10:00 AM - 5:00 PM",
+        "special_events": "Cultural dance shows every evening."
       },
       {
         "name": "Jantar Mantar",
         "src": "../rajasthan/jantar-mantar.jpg",
         "alt": "Jantar Mantar",
-        "description": "Jantar Mantar in Jaipur is a collection of 19 architectural astronomical instruments built by Sawai Jai Singh II, a UNESCO World Heritage site.",
+        "description": "Jantar Mantar in Jaipur is an astronomical observatory featuring a collection of 19 architectural astronomical instruments.",
+        "price_weekday": "₹50",
+        "price_weekend": "₹60",
+        "price_foreign": "₹250",
+        "timings": "9:00 AM - 4:30 PM",
+        "special_events": "Guided tours on equinox days."
+      },
+      {
+        "name": "Mehrangarh Museum",
+        "src": "../rajasthan/mehrangarh-museum.jpg",
+        "alt": "Mehrangarh Museum",
+        "description": "Mehrangarh Museum in Jodhpur showcases a rich collection of palanquins, costumes, armory, and paintings.",
         "price_weekday": "₹70",
-        "price_weekend": "₹85"
+        "price_weekend": "₹85",
+        "price_foreign": "₹400",
+        "timings": "9:00 AM - 5:00 PM",
+        "special_events": "Rajasthan International Folk Festival held every October."
       },
       {
-        "name": "Anokhi Museum of Hand Printing",
-        "src": "../rajasthan/anokhi.jpg",
-        "alt": "Anokhi Museum of Hand Printing",
-        "description": "This museum in Jaipur is dedicated to the traditional art of hand block printing, showcasing exhibits and live demonstrations.",
+        "name": "Ajmer Government Museum",
+        "src": "../rajasthan/ajmer-govt-museum.jpg",
+        "alt": "Ajmer Government Museum",
+        "description": "Ajmer Government Museum is housed in the Akbari Fort, showcasing sculptures, armor, and Mughal and Rajput paintings.",
         "price_weekday": "₹40",
-        "price_weekend": "₹50"
-      },
-      {
-        "name": "Maharana Pratap Museum",
-        "src": "../rajasthan/maharana-pratap-museum.jpg",
-        "alt": "Maharana Pratap Museum",
-        "description": "This museum in Haldighati is dedicated to the life and legacy of Maharana Pratap, a prominent ruler of Mewar.",
-        "price_weekday": "₹30",
-        "price_weekend": "₹40"
+        "price_weekend": "₹50",
+        "price_foreign": "₹200",
+        "timings": "10:00 AM - 4:30 PM",
+        "special_events": "Exhibitions on Mughal history in July."
       }
     ]
   },
@@ -163,7 +217,11 @@
         "alt": "Salar Jung Museum",
         "description": "Salar Jung Museum in Hyderabad (though often associated with UP due to the historical connection) features one of the largest collections of art and antiques.",
         "price_weekday": "₹200",
-        "price_weekend": "₹220"
+        "price_weekend": "₹220",
+        "price_foreign": "₹1000",
+        "opening_time": "10:00 AM",
+        "closing_time": "5:00 PM",
+        "special_events": "Special exhibitions every quarter."
       },
       {
         "name": "State Museum Lucknow",
@@ -171,7 +229,11 @@
         "alt": "State Museum Lucknow",
         "description": "The State Museum in Lucknow showcases artifacts from the region’s rich cultural and historical heritage.",
         "price_weekday": "₹60",
-        "price_weekend": "₹75"
+        "price_weekend": "₹75",
+        "price_foreign": "₹300",
+        "opening_time": "10:00 AM",
+        "closing_time": "5:00 PM",
+        "special_events": "Cultural workshops every month."
       },
       {
         "name": "Ram Katha Sangrahalay",
@@ -179,7 +241,11 @@
         "alt": "Ram Katha Sangrahalay",
         "description": "Ram Katha Sangrahalay in Ayodhya is dedicated to the epic Ramayana, featuring exhibits that depict the life and story of Lord Rama.",
         "price_weekday": "₹50",
-        "price_weekend": "₹65"
+        "price_weekend": "₹65",
+        "price_foreign": "₹250",
+        "opening_time": "9:00 AM",
+        "closing_time": "6:00 PM",
+        "special_events": "Thematic exhibits during major festivals."
       },
       {
         "name": "Allahabad Museum",
@@ -187,7 +253,11 @@
         "alt": "Allahabad Museum",
         "description": "Allahabad Museum in Prayagraj houses an impressive collection of historical artifacts, including sculptures, coins, and manuscripts.",
         "price_weekday": "₹70",
-        "price_weekend": "₹85"
+        "price_weekend": "₹85",
+        "price_foreign": "₹400",
+        "opening_time": "10:00 AM",
+        "closing_time": "6:00 PM",
+        "special_events": "Historical reenactments on special occasions."
       },
       {
         "name": "Mathura Museum",
@@ -195,7 +265,11 @@
         "alt": "Mathura Museum",
         "description": "The Mathura Museum is renowned for its collection of ancient Buddhist and Jain sculptures, along with a variety of other artifacts.",
         "price_weekday": "₹40",
-        "price_weekend": "₹50"
+        "price_weekend": "₹50",
+        "price_foreign": "₹200",
+        "opening_time": "10:00 AM",
+        "closing_time": "5:00 PM",
+        "special_events": "Special exhibitions on Buddhist artifacts."
       },
       {
         "name": "Baba Raghav Das Museum",
@@ -203,7 +277,11 @@
         "alt": "Baba Raghav Das Museum",
         "description": "Located in Gorakhpur, this museum features exhibits related to the history and culture of the region.",
         "price_weekday": "₹30",
-        "price_weekend": "₹40"
+        "price_weekend": "₹40",
+        "price_foreign": "₹150",
+        "opening_time": "9:30 AM",
+        "closing_time": "5:30 PM",
+        "special_events": "Regional cultural events during local festivals."
       }
     ]
   },
@@ -215,7 +293,11 @@
         "alt": "Punjab State Museum",
         "description": "The Punjab State Museum in Chandigarh features a collection of art, archeological finds, and historical artifacts.",
         "price_weekday": "₹50",
-        "price_weekend": "₹60"
+        "price_weekend": "₹60",
+        "price_foreign": "₹250",
+        "opening_time": "10:00 AM",
+        "closing_time": "5:00 PM",
+        "special_events": "Special exhibitions on Punjabi culture."
       },
       {
         "name": "Maharaja Ranjit Singh Museum",
@@ -223,7 +305,11 @@
         "alt": "Maharaja Ranjit Singh Museum",
         "description": "Located in Amritsar, this museum is dedicated to the life and legacy of Maharaja Ranjit Singh, the founder of the Sikh Empire.",
         "price_weekday": "₹60",
-        "price_weekend": "₹70"
+        "price_weekend": "₹70",
+        "price_foreign": "₹300",
+        "opening_time": "9:00 AM",
+        "closing_time": "5:00 PM",
+        "special_events": "Exhibitions on Sikh history during important Sikh festivals."
       },
       {
         "name": "Punjab State War Heroes' Memorial & Museum",
@@ -231,7 +317,11 @@
         "alt": "Punjab State War Heroes' Memorial & Museum",
         "description": "This museum in Amritsar honors the soldiers of Punjab who sacrificed their lives for the nation.",
         "price_weekday": "₹80",
-        "price_weekend": "₹90"
+        "price_weekend": "₹90",
+        "price_foreign": "₹400",
+        "opening_time": "10:00 AM",
+        "closing_time": "6:00 PM",
+        "special_events": "Annual remembrance ceremonies."
       },
       {
         "name": "Virasat-e-Khalsa",
@@ -239,7 +329,11 @@
         "alt": "Virasat-e-Khalsa",
         "description": "Located in Anandpur Sahib, this museum celebrates the history and culture of Sikhism.",
         "price_weekday": "₹90",
-        "price_weekend": "₹100"
+        "price_weekend": "₹100",
+        "price_foreign": "₹500",
+        "opening_time": "10:00 AM",
+        "closing_time": "6:00 PM",
+        "special_events": "Special exhibits on Sikh festivals."
       },
       {
         "name": "Shaheed Bhagat Singh Museum",
@@ -247,7 +341,11 @@
         "alt": "Shaheed Bhagat Singh Museum",
         "description": "Situated in Khatkar Kalan, this museum is dedicated to the life and legacy of freedom fighter Bhagat Singh.",
         "price_weekday": "₹40",
-        "price_weekend": "₹50"
+        "price_weekend": "₹50",
+        "price_foreign": "₹200",
+        "opening_time": "9:00 AM",
+        "closing_time": "5:00 PM",
+        "special_events": "Special exhibits on Bhagat Singh's life during his birth anniversary."
       },
       {
         "name": "Punjab Agricultural University Museum",
@@ -255,7 +353,11 @@
         "alt": "Punjab Agricultural University Museum",
         "description": "Located in Ludhiana, this museum showcases Punjab's agricultural history and heritage.",
         "price_weekday": "₹20",
-        "price_weekend": "₹30"
+        "price_weekend": "₹30",
+        "price_foreign": "₹100",
+        "opening_time": "10:00 AM",
+        "closing_time": "5:00 PM",
+        "special_events": "Agricultural fairs and workshops periodically."
       }
     ]
   },
@@ -267,7 +369,11 @@
         "alt": "Assam State Museum",
         "description": "The Assam State Museum in Guwahati is one of the oldest museums in Northeast India, showcasing artifacts and exhibits related to Assam's history, culture, and heritage.",
         "price_weekday": "₹40",
-        "price_weekend": "₹50"
+        "price_weekend": "₹50",
+        "price_foreign": "₹200",
+        "opening_time": "10:00 AM",
+        "closing_time": "5:00 PM",
+        "special_events": "Cultural exhibits and workshops throughout the year."
       },
       {
         "name": "Srimanta Sankardev Kalakshetra",
@@ -275,7 +381,11 @@
         "alt": "Srimanta Sankardev Kalakshetra",
         "description": "Srimanta Sankardev Kalakshetra in Guwahati is a cultural institution that celebrates Assamese art, culture, and heritage.",
         "price_weekday": "₹60",
-        "price_weekend": "₹70"
+        "price_weekend": "₹70",
+        "price_foreign": "₹300",
+        "opening_time": "9:00 AM",
+        "closing_time": "6:00 PM",
+        "special_events": "Festivals and traditional dance performances regularly."
       },
       {
         "name": "Tezpur Museum",
@@ -283,7 +393,11 @@
         "alt": "Tezpur Museum",
         "description": "Tezpur Museum is a small museum that showcases artifacts and history related to the Tezpur region.",
         "price_weekday": "₹30",
-        "price_weekend": "₹40"
+        "price_weekend": "₹40",
+        "price_foreign": "₹150",
+        "opening_time": "10:00 AM",
+        "closing_time": "5:00 PM",
+        "special_events": "Local history exhibitions and educational tours."
       },
       {
         "name": "Bishnu Rabha Smriti Museum",
@@ -291,7 +405,11 @@
         "alt": "Bishnu Rabha Smriti Museum",
         "description": "This museum is dedicated to Bishnu Prasad Rabha, an Assamese cultural icon, and features his works and contributions.",
         "price_weekday": "₹50",
-        "price_weekend": "₹60"
+        "price_weekend": "₹60",
+        "price_foreign": "₹250",
+        "opening_time": "10:00 AM",
+        "closing_time": "5:00 PM",
+        "special_events": "Cultural events and art exhibitions dedicated to Bishnu Rabha."
       },
       {
         "name": "Dibrugarh University Museum",
@@ -299,7 +417,11 @@
         "alt": "Dibrugarh University Museum",
         "description": "Located on the campus of Dibrugarh University, this museum exhibits cultural and historical artifacts from the region.",
         "price_weekday": "₹20",
-        "price_weekend": "₹30"
+        "price_weekend": "₹30",
+        "price_foreign": "₹100",
+        "opening_time": "10:00 AM",
+        "closing_time": "5:00 PM",
+        "special_events": "University-related exhibitions and educational workshops."
       },
       {
         "name": "Assam Rajyik State Museum",
@@ -307,7 +429,11 @@
         "alt": "Assam Rajyik State Museum",
         "description": "Situated in Guwahati, the Assam Rajyik State Museum is known for its diverse collection of sculptures, tribal artifacts, and ethnographic exhibits.",
         "price_weekday": "₹30",
-        "price_weekend": "₹40"
+        "price_weekend": "₹40",
+        "price_foreign": "₹150",
+        "opening_time": "10:00 AM",
+        "closing_time": "5:00 PM",
+        "special_events": "Tribal art exhibitions and cultural programs."
       }
     ]
   }

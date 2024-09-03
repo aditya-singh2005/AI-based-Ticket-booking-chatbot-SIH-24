@@ -24,12 +24,20 @@ $(document).ready(function () {
             $("#detail-title").text(item.name);
             $("#detail-description").text(item.description);
 
+            // Display special events
+            $("#special-events").text(
+              `Special Events: ${item.special_events || "N/A"}`
+            );
+
             // Display pricing details
             $("#price-weekday").text(
               `Weekday Entry: ${item.price_weekday || "N/A"}`
             );
             $("#price-weekend").text(
               `Weekend Entry: ${item.price_weekend || "N/A"}`
+            );
+            $("#price-foreign").text(
+              `Foreign Entry: ${item.price_foreign || "N/A"}`
             );
           } else {
             console.error(
@@ -52,12 +60,20 @@ $(document).ready(function () {
             $("#detail-title").text(item.name);
             $("#detail-description").text(item.description);
 
+            // Display special events
+            $("#special-events").text(
+              `Special Events: ${item.special_events || "N/A"}`
+            );
+
             // Display pricing details
             $("#price-weekday").text(
               `Weekday Entry: ${item.price_weekday || "N/A"}`
             );
             $("#price-weekend").text(
               `Weekend Entry: ${item.price_weekend || "N/A"}`
+            );
+            $("#price-foreign").text(
+              `Foreign Entry: ${item.price_foreign || "N/A"}`
             );
 
             found = true;

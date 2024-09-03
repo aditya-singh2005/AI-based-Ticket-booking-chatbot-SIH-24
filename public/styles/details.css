@@ -90,7 +90,7 @@ nav ul li a {
 
 .details-grid {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
   align-items: center;
   margin-top: 2rem;
@@ -111,17 +111,33 @@ nav ul li a {
 .details-info h2 {
   font-size: 2.5rem;
   font-weight: 700;
+  text-shadow: 2px 2px 1px #080808;
 }
 
 .details-info p {
   font-size: 1.2rem;
   line-height: 1.5;
+  text-shadow: 2px 2px 1px #080808;
 }
 
 .details-info #price-weekday,
 .details-info #price-weekend {
   font-size: 1.2rem;
-  color: #ffd700; /* Gold color for emphasis */
+  color: #ffffff; /* Gold color for emphasis */
+  text-shadow: 2px 2px 1px #080808;
+}
+.details-info #special-events {
+  font-size: 1.2rem;
+  color: #ffffff; /* Gold color for emphasis */
+  margin-top: 0.5rem;
+  text-shadow: 2px 2px 1px #080808;
+}
+
+.details-info #price-foreign {
+  font-size: 1.2rem;
+  color: #ebebeb; /* Gold color for emphasis */
+  margin-top: 0.5rem;
+  text-shadow: 2px 2px 1px #080808;
 }
 
 .book-btn {
@@ -130,7 +146,7 @@ nav ul li a {
 }
 
 footer {
-  background: #0e0800;
+  background: #036052;
   color: white;
   display: flex;
   justify-content: space-around;
@@ -160,10 +176,10 @@ a:hover {
   text-decoration: underline;
   transition: 0.1s ease;
 }
-.details-info #price-weekday,
+/* .details-info #price-weekday,
 .details-info #price-weekend,
 .details-info #price-show {
   font-size: 1.2rem;
-  color: #ffffff; /* Gold color for emphasis */
+  color: #ffffff; 
   margin-top: 0.5rem;
-}
+} */
