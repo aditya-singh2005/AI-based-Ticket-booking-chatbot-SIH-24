@@ -174,7 +174,7 @@ nav ul li a:hover::after {
 
 .destination__card {
   height: 100%;
-  background-color: rgba(255, 218, 36, 0.717);
+  background-color: rgba(195, 164, 135, 0.881);
   box-shadow: 5px 5px 20px rgb(0, 0, 0);
   position: relative;
   transition: 0.2s ease-in-out;

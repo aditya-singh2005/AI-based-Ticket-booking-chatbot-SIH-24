@@ -11,7 +11,7 @@
       "ltd": 28.611029,
       "lng": 77.219184,
       "opening_hours": "10:00 AM",
-      "imageURL": "https://example.com/national_museum.jpg"
+      "imageURL": "../icons/national-museum.jpeg"
     },
     {
       "state": "Delhi",
