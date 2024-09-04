@@ -22,7 +22,7 @@ $(document).ready(function () {
       if (cities.includes(query)) {
         // Redirect to city.html with the city query as a URL parameter
         window.location.href =
-          "/html pages/city.html?city=" + encodeURIComponent(query);
+          "../html pages/city.html?city=" + encodeURIComponent(query);
       } else {
         // Check if query matches any museum in any city
         let foundMuseum = false;
@@ -33,7 +33,7 @@ $(document).ready(function () {
           ) {
             // Redirect to museum.html with the museum query as a URL parameter
             window.location.href =
-              "/html pages/details.html?name=" + encodeURIComponent(query);
+              "../html pages/details.html?name=" + encodeURIComponent(query);
             foundMuseum = true;
             break;
           }

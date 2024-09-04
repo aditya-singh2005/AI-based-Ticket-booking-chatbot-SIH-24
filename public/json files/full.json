@@ -3,7 +3,7 @@
     "museums": [
       {
         "name": "National Museum",
-        "src": "../delhi/national-museum.jpg",
+        "src": "../icons/national-museum.jpeg",
         "alt": "National Museum",
         "description": "The National Museum is one of the largest museums in India, featuring collections of artifacts dating back to the Indus Valley Civilization.",
         "price_weekday": "₹20",
@@ -14,7 +14,7 @@
       },
       {
         "name": "National Rail Museum",
-        "src": "../icons/bg.jpg",
+        "src": "../icons/national-rail-museum.jpg",
         "alt": "National Rail Museum",
         "description": "The National Rail Museum showcases the rich heritage of Indian Railways with a display of locomotives and carriages.",
         "price_weekday": "₹50",
@@ -25,7 +25,7 @@
       },
       {
         "name": "Nehru Planetarium",
-        "src": "../delhi/nehru-planetarium.jpg",
+        "src": "../icons/Nehru Planetarium.jpg",
         "alt": "Nehru Planetarium",
         "description": "Nehru Planetarium is a center for astronomical education and is popular among students and space enthusiasts.",
         "price_weekday": "₹30",
@@ -36,7 +36,7 @@
       },
       {
         "name": "Gandhi Smriti",
-        "src": "../delhi/gandhi-smriti.jpg",
+        "src": "../icons/gandhi-smriti.jpg",
         "alt": "Gandhi Smriti",
         "description": "Gandhi Smriti is a museum dedicated to Mahatma Gandhi, showcasing his life and teachings.",
         "price_weekday": "₹10",
@@ -47,7 +47,7 @@
       },
       {
         "name": "Indira Gandhi Memorial Museum",
-        "src": "../delhi/indira-museum.jpg",
+        "src": "../icons/indira-museum.jpg",
         "alt": "Indira Gandhi Memorial Museum",
         "description": "This museum is housed in the former residence of Indira Gandhi and features exhibits on her life and political career.",
         "price_weekday": "₹25",
@@ -58,7 +58,7 @@
       },
       {
         "name": "Crafts Museum",
-        "src": "../delhi/crafts-museum.jpg",
+        "src": "../icons/crafts museum.jpg",
         "alt": "Crafts Museum",
         "description": "The Crafts Museum in Delhi showcases India's rich tradition of handicrafts, textiles, and folk art.",
         "price_weekday": "₹40",

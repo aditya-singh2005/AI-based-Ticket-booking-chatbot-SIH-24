@@ -174,15 +174,15 @@ nav ul li a:hover::after {
 
 .destination__card {
   height: 100%;
-  background-color: var(--white);
-  box-shadow: 5px 5px 20px rgba(122, 201, 132, 0.7);
+  background-color: rgba(255, 218, 36, 0.717);
+  box-shadow: 5px 5px 20px rgb(0, 0, 0);
   position: relative;
   transition: 0.2s ease-in-out;
   border-radius: 10px;
 }
 
 .destination__card:hover {
-  transform: translateY(-30px);
+  transform: scale(1.1);
 }
 
 .destination__card img {
@@ -204,7 +204,7 @@ nav ul li a:hover::after {
 a:hover {
   font-weight: 900;
   /* text-decoration: underline; */
-  transition: 0.1s ease-in-out;
+  transition: 0.2s ease-in-out;
   color: #fff;
 }
 
@@ -242,9 +242,9 @@ select {
   border: 0;
   outline: 0;
   border-radius: 5px;
-  background: #056f5f;
+  background: #f5168d;
   color: #fff;
   font-weight: 500;
   cursor: pointer;
-  box-shadow: 5px 5px 20px rgba(122, 201, 132, 0.7);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
 }
