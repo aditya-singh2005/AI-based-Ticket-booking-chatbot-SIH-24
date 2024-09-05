@@ -50,7 +50,7 @@
       "ltd": 28.613839,
       "lng": 77.243521,
       "opening_hours": "10:00 AM",
-      "imageURL": "https://example.com/national_science_centre.jpg"
+      "imageURL": "../icons/national science centre.jpg"
     },
     {
       "state": "Delhi",

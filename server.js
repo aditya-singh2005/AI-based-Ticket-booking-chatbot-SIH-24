@@ -22,7 +22,8 @@ const db = new pg.Client({
 });
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public/html pages/home.html'));
+  res.render("Map Codes.ejs");
+  
 });
 
 app.listen(port, () => {

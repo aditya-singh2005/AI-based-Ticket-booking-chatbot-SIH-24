@@ -26,6 +26,7 @@
     let infoWindow;  // For displaying distance and time
     let routePolyline; // For handling route polyline
     let activeMarker = null;  // Track the currently active marker
+    let routeInfoWindowOpen = false; // Track if the route info window is open
 
     function initMap() {
       if (navigator.geolocation) {
@@ -36,7 +37,7 @@
               lng: position.coords.longitude,
             };
 
-            fetch('/json files/Site-Data.json')
+            fetch('../json files/Site-Data.json')
               .then(response => response.json())
               .then(sitesData => {
                 const allLocations = [
@@ -172,8 +173,8 @@
                 });
 
                 // Close info window when clicking anywhere else on the map
-                google.maps.event.addListener(map, 'click', () => {
-                  if (infoWindow) {
+                google.maps.event.addListener(map, 'click', (event) => {
+                  if (infoWindow && !routeInfoWindowOpen) {
                     infoWindow.close();
                     activeMarker = null;
                   }
@@ -239,18 +240,25 @@
         </div>
       `;
 
-      // Set event listener to show info when hovering over the polyline
-      google.maps.event.addListener(routePolyline, 'mouseover', (event) => {
-        infoWindow.setContent(routeInfo);
-        infoWindow.setPosition(event.latLng);
-        infoWindow.open(map);
+      // Set event listener to show info when clicking on the polyline
+      google.maps.event.addListener(routePolyline, 'click', (event) => {
+        if (routePolyline) {
+          infoWindow.setContent(routeInfo);
+          infoWindow.setPosition(event.latLng);
+          infoWindow.open(map);
+          routeInfoWindowOpen = true; // Mark that route info window is open
+        }
       });
 
-      // Hide the info window when the mouse leaves the polyline
-      google.maps.event.addListener(routePolyline, 'mouseout', () => {
-        infoWindow.close();
+      // Set event listener to hide info window when clicking elsewhere
+      google.maps.event.addListener(map, 'click', () => {
+        if (infoWindow && routeInfoWindowOpen) {
+          infoWindow.close();
+          routeInfoWindowOpen = false; // Mark that route info window is closed
+        }
       });
-    }</script>
+    }
+  </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqiqkSiDxxMRmiORpUaNiQawO6WR-tnAU&libraries=places,geometry&callback=initMap" async defer></script>
 </body>
 </html>
