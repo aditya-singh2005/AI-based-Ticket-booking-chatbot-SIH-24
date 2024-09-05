@@ -1,51 +1,49 @@
 $(document).ready(function () {
-  // Function to load images based on city and category
-  function loadImages(city, category) {
-    $.getJSON("../json files/cities.json", function (data) {
-      const categoryData = data[city]?.[category];
-      if (categoryData) {
-        const $container = $(".destination__grid");
-        $container.empty(); // Clear existing content
+  // Function to load images and details for all cities and categories
+  function loadImages() {
+    $.getJSON("../json files/full.json", function (data) {
+      const $container = $(".destination__grid");
+      $container.empty(); // Clear existing content
 
-        categoryData.forEach(function (item) {
-          const $cardContent = $("<div>").addClass("card__content");
+      // Iterate over each city and its categories
+      $.each(data, function (city, categories) {
+        // Iterate over each category within the city
+        $.each(categories, function (category, items) {
+          items.forEach(function (item) {
+            // Create card content with only name and description
+            const $cardContent = $("<div>").addClass("card__content");
 
-          const $imgElement = $("<img>").attr({
-            src: item.src,
-            alt: item.alt,
+            const $imgElement = $("<img>").attr({
+              src: item.src,
+              alt: item.alt,
+            });
+
+            const $nameElement = $("<h2>").text(item.name);
+            const $descriptionElement = $("<p>").text(item.description);
+
+            // Append elements to the card content
+            $cardContent.append($imgElement, $nameElement, $descriptionElement);
+
+            // Create the card container
+            const $card = $("<div>").addClass("destination__card").append($cardContent);
+
+            // Append the card to the main container
+            $container.append($card);
+
+            // Add click event listener to each card
+            $card.on("click", function () {
+              window.location.href = `/html pages/details.html?city=${encodeURIComponent(
+                city
+              )}&name=${encodeURIComponent(item.name)}`;
+            });3
           });
-
-          const $nameElement = $("<h2>").text(item.name);
-          const $descriptionElement = $("<p>").text(item.description);
-
-          $cardContent.append($imgElement, $nameElement, $descriptionElement);
-
-          const $card = $("<div>")
-            .addClass("destination__card")
-            .append($cardContent);
-
-          $container.append($card);
         });
-      } else {
-        console.error(
-          `No data found for city "${city}" and category "${category}".`
-        );
-      }
+      });
     }).fail(function () {
       console.error("Error loading images.");
     });
   }
 
-  // Function to get city and category from URL parameters
-  function getParams() {
-    const urlParams = new URLSearchParams(window.location.search);
-    return {
-      city: urlParams.get("city") || "paris",
-      category: urlParams.get("category") || "monuments",
-    };
-  }
-
-  // Load images based on city and category
-  const params = getParams();
-  loadImages("Delhi", "monuments");
+  // Load images for all cities and categories
+  loadImages();
 });

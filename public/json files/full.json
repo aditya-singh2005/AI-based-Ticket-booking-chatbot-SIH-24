@@ -69,11 +69,11 @@
       }
     ]
   },
-  "maharashtra": {
+  "icons": {
     "museums": [
       {
         "name": "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
-        "src": "../maharashtra/csmvs.jpg",
+        "src": "../icons/csmvs.jpeg",
         "alt": "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
         "description": "CSMVS is a premier art and history museum in Mumbai, showcasing a wide range of artifacts, paintings, and sculptures.",
         "price_weekday": "₹100",
@@ -84,7 +84,7 @@
       },
       {
         "name": "Prince of Wales Museum",
-        "src": "../maharashtra/prince-of-wales.jpg",
+        "src": "../icons/prince-of-wales.jpg",
         "alt": "Prince of Wales Museum",
         "description": "Also known as the Chhatrapati Shivaji Maharaj Museum, this museum is renowned for its collection of ancient and medieval artifacts.",
         "price_weekday": "₹150",
@@ -95,7 +95,7 @@
       },
       {
         "name": "Dr. Bhau Daji Lad Museum",
-        "src": "../maharashtra/bhau-daji-lad.jpg",
+        "src": "../icons/bhau-daji-lad.jpg",
         "alt": "Dr. Bhau Daji Lad Museum",
         "description": "Dr. Bhau Daji Lad Museum in Mumbai is known for its collection of decorative arts and cultural artifacts.",
         "price_weekday": "₹80",
@@ -106,7 +106,7 @@
       },
       {
         "name": "National Gallery of Modern Art",
-        "src": "../maharashtra/ngma.jpg",
+        "src": "../icons/ngma.jpg",
         "alt": "National Gallery of Modern Art",
         "description": "NGMA in Mumbai showcases contemporary and modern art from Indian and international artists.",
         "price_weekday": "₹120",
@@ -117,7 +117,7 @@
       },
       {
         "name": "Raja Dinkar Kelkar Museum",
-        "src": "../maharashtra/raja-dinkar.jpg",
+        "src": "../icons/raja-dinkar.jpg",
         "alt": "Raja Dinkar Kelkar Museum",
         "description": "This museum in Pune is dedicated to the collection of Raja Dinkar Kelkar, featuring everyday artifacts, sculptures, and decorative arts.",
         "price_weekday": "₹60",
@@ -128,9 +128,9 @@
       },
       {
         "name": "Tribal Museum",
-        "src": "../maharashtra/tribal-museum.jpg",
+        "src": "../icons/tribal-museum.jpg",
         "alt": "Tribal Museum",
-        "description": "The Tribal Museum in Pune displays the cultural heritage and artifacts of Maharashtra's tribal communities.",
+        "description": "The Tribal Museum in Pune displays the cultural heritage and artifacts of icons's tribal communities.",
         "price_weekday": "₹70",
         "price_weekend": "₹80",
         "price_foreign": "₹150",
